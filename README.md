@@ -110,3 +110,19 @@ If you move the game window or use a different screen, you MUST update the captu
 - **Input:** 64x64 RGB Image
 - **Layers:** 3x Conv2D + MaxPooling (Feature Extraction) -> Flatten -> Dense (Decision)
 - **Output:** 3 Actions (0=Gas, 1=Brake, 2=None)
+
+---
+
+## 🔮 Future Improvements
+
+- **Reinforcement Learning Integration**  
+  Extend the current behavioral cloning approach by incorporating reinforcement learning (e.g., Deep Q-Networks or Policy Gradient methods), allowing the agent to learn directly from its own gameplay and improve over time.
+
+- **Reward Function Design**  
+  Develop a robust reward mechanism based on distance traveled, survival time, and crash detection. This may involve using computer vision techniques (e.g., OCR or template matching) to extract in-game metrics.
+
+- **Hybrid Learning Approach**  
+  Combine imitation learning (current CNN model) with reinforcement learning to leverage both human-like behavior and self-improving strategies.
+  
+  ---
+  
